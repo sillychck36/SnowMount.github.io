@@ -12,3 +12,27 @@
 </body>
 </html>
 A static test page
+html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Galaxy Simulator</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #000;
+        }
+        canvas {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="galaxyCanvas" width="800" height="600"></canvas>
+    <script>
+        const canvas = document.getElementById('galaxyCanvas');
+        const context = canvas.getContext('2d');
+    </script>
+</body>
+</html>
